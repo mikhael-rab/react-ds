@@ -1,6 +1,8 @@
 .netflix{
-    background-color: #131313;
+    background-color: #000000;
     height: 100vh;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
 }
 .sidebar{
     align-items: center;
@@ -10,4 +12,46 @@
     width: 5%;
     display: flex;
     justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.hero{
+    display: block;
+    background:linear-gradient(to top right,rgba(0,0,0,1.0),rgba(0,0,0,0.1)) , url("../assets/kgf.jpg");
+    background-size: cover;
+    color: white;
+    padding-left: 24px;
+    padding-bottom: 50px;
+    /* height: 50%; */
+}
+.hero img{
+    height: 200px;
+}
+.h-button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px;
+    
+}
+.b1{
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    width: 80px;
+}
+.b2{
+    color: #000000;
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    width: 140px;
 }

@@ -1,0 +1,17 @@
+.title{
+    color: aliceblue;
+}
+.list{
+    display: flex;
+    height: 350px;
+    gap: 10px;
+}
+.list img{
+    height: 300px;
+    width: 300px;
+}
+.list img:hover{
+    transform: scale(1.1);
+    transition: ;
+
+}
