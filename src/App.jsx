@@ -1,6 +1,7 @@
 import './App.css'
 import Login from './pages/Login'
 import Home from './pages/Home'
+import Movies from './pages/Movies'
 import { BrowserRouter,Routes,Route } from 'react-router-dom' 
 import Newlogin from './pages/Newlogin'
 
@@ -13,6 +14,7 @@ function App() {
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/home' element={<Home/>}/>
         <Route path='/newlogin' element={<Newlogin/>}/>
+        <Route path='/movies' element={<Movies/>}/>
       </Routes>
 
       </BrowserRouter>
